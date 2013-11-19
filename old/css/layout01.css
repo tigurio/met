@@ -1,0 +1,29 @@
+*{margin: 0px; padding: 0px;}
+ul{list-style: none;}
+#barraMet{background: #000; height: 35px; width: 100%;}
+#barraMet #wrapBar{ width: 990px; margin: 0 auto;;}
+#barraMet .marcaMet{float: left; /*text-indent: -9999px;*/ margin-right: 100px;}
+#barraMet li{float: left; color: #d6c611; margin-right: 30px; line-height: 35px; font-size: 13px; text-transform: uppercase;}
+
+#geral{width: 100%; height: auto;}
+.conteudo{width: 800px; height: auto; margin:0 auto;}
+
+#menu{width: 100%; height: auto; line-height: 24px;}
+#menu ul{text-align: center; margin:0 auto;}
+.titulo{background: #000; color: #fff; font-size: 15px; text-transform: uppercase; padding: 10px 20px; display: inline-block;}
+.context{width: 700px; margin:0 auto;}
+.context figure{margin: 10px;}
+.topo{width: 100%; height: auto;}
+
+.marca{ height: 140px; margin:20px 0; text-align: center;}
+#menu li{float: left; list-style: none; text-transform: uppercase; font-size: 14px; line-height: 24px;}
+.destaque{width: 700px; height: 320px; margin:0 auto; position: relative;}
+.destaque figcaption{position: absolute; bottom: 20px; right: 0;}
+.sombraDest{width: 800px; height: 68px; margin: 0 auto; background: url('../img/sombraDest.jpg') no-repeat center;}
+#rodapeMet{width: 100%; height: auto;}
+.share{float: right;}
+address{float: left;}
+
+
+.floatLeft{float: left;}
+.clear{clear: both;	}
