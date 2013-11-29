@@ -44,6 +44,13 @@
 	bottom: -30px;
 	width: 100%;
 }
+.layout02 .bx-wrapper .bx-pager,
+.layout02 .bx-wrapper .bx-controls-auto {
+	position: absolute;
+	bottom: 20px;
+	width: 100%;
+}
+
 
 /* LOADER */
 
