@@ -128,6 +128,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
 .layout04 form span{display:block;}
 .layout04 form label{margin:10px 0; display:block;}
 .layout04 form input[type=submit]{margin:20px; padding:5px; border:none; text-transform:uppercase; font-size:12px; background-color:#000; color:#fff;}
+.layout04 .blog{border-bottom:1px solid; padding-top:20px;}
+.layout04 .blog:last{border:none!important;}
+.layout04 .blog img{max-width:710px;}
 .layout04 #rodapeMet{margin:10px 0;}
 
 
