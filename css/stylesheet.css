@@ -36,7 +36,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
 .layout01 .blog{clear:both; overflow:hidden;}
 .layout01 .blog .dataPostagem{color:#aaa; text-align:right; font-size:9px;}
 .layout01 .blog .btnTxtFull{background:#ccc; color:#666; font-size:10px; display:block; float:right; clear:both; padding:5px 10px; margin:10px 0px;}
-.layout01 #rodapeMet{width: 820px; height: auto; margin:0px auto; padding:20px 0; clear:both; overflow:hidden;}
+.layout01 #rodapeMet{width: 820px; height: auto; margin:10px auto; padding:20px 0; clear:both; overflow:hidden;}
 
 
 /******LAYOUT 02******/
@@ -51,7 +51,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
 .layout02 .menuFornecedor li{margin:10px; line-height:20px; font-size:14px; text-transform:uppercase;}
 .layout02 .conteudo{width:835px; height:auto; margin:0 auto; position:relative; background:#fff; clear:both; overflow:hidden;}
 .layout02 .context{width: 630px; float:right; padding-right:20px; padding-bottom:20px;}
+.layout02 .texto{ border-bottom:2px solid #000; margin-top: 50px;}
 .layout02 .tituloPagina{background:#000; color:#fff; padding:15px 10px 10px 10px; text-transform:uppercase; position:absolute; top:0px; left:200px;}
+.layout02 .fotos{ margin-top: 50px;}
 .layout02 form {border-bottom:2px solid; border-color:#000; clear:both; overflow:hidden;}
 .layout02 form #nome,
 .layout02 form #tel,
@@ -61,20 +63,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
 .layout02 form span{display:block;}
 .layout02 form label{margin:10px 0; display:block;}
 .layout02 form input[type=submit]{margin:20px; padding:5px; border:none; text-transform:uppercase; font-size:12px; background-color:#000; color:#fff;}
+.layout02 #rodapeMet{margin:10px 0};
 
 /******LAYOUT 03******/
 .layout03 #geral{width:990px; height:auto; margin:0 auto;}
 .layout03{}
 .layout03 .marcaFornecedor{width:250px; max-height:350px; padding:10px; margin-left:-125px; position:absolute; bottom:0; left:50%;}
 .layout03 .boxMarca{}
-.layout03 .destaqueFornecedor{width:990px; height:270px; border:1px solid #efefef; margin:20px 0;-webkit-box-shadow:  0px 0px 15px 1px rgba(0, 0, 0, 0.4); box-shadow:  0px 0px 15px 1px rgba(0, 0, 0, 0.4);}
+.layout03 .destaqueFornecedor{width:990px; height:270px; border:1px solid #efefef; margin:20px auto;-webkit-box-shadow:  0px 0px 15px 1px rgba(0, 0, 0, 0.4); box-shadow:  0px 0px 15px 1px rgba(0, 0, 0, 0.4);}
 .layout03 .wrapDestFornecedor{width:970px; height:250px; padding:10px; background-color:#fff; position:relative;}
 .layout03 .menuFornecedor{width:250px; height:auto; border-right:5px solid;}
-.layout03 .menuFornecedor ul{text-align:right; padding:10px;}
-.layout03 .menuFornecedor li{ padding-bottom:10px;}
+.layout03 .menuFornecedor ul{text-align:right; padding:10px 0 10px 10px;}
+.layout03 .menuFornecedor li{ line-height: 30px; padding-right: 10px}
     .layout03 .bgMenu{background-color:#efefef;}
-    .layout03 .bordaMenu{}
-.layout03 .conteudo{ width:990px; height:auto; clear:both; overflow:hidden;}
+.layout03 .conteudo{ width:990px; height:auto; clear:both; overflow:hidden; margin:0px auto}
 .layout03 .context{width:720px; height:auto;}
 .layout03 .texto{clear:both; overflow:hidden;}
 .layout03 .tituloPagina{}
@@ -86,7 +88,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
 .layout03 form blockquote{width:300px;padding:5px;}
 .layout03 form span{display:block;}
 .layout03 form label{margin:10px 0; display:block;}
-.layout03 form input[type=submit]{margin:20px; padding:5px; border:none; text-transform:uppercase; font-size:12px; background-color:#000; color:#fff;}
+.layout03 form input[type=submit]{ clear:both; margin:20px; padding:5px; border:none; text-transform:uppercase; font-size:12px; background-color:#000; color:#fff;}
 .layout03 #rodapeMet{border-top:2px solid; width: 720px; height: auto; margin:20px auto 0 auto; padding:10px 0; clear:both; overflow:hidden;}
 .layout03 address{float: left;font-size:14px; font-style:normal; width:500px;}
 .layout03 #rodapeMet blockquote{width:720px; clear:both;}
@@ -108,7 +110,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
 .layout04 .wrapDestFornecedor{width:690px; height:220px; background-color:#fff; position:relative;}
 .layout04 .menuFornecedor{width:270px; height:auto; margin: 20px 0;}
 .layout04 .menuFornecedor ul{text-align:left; padding:20px;}
-.layout04 .menuFornecedor li{ padding-bottom:10px;}
+.layout04 .menuFornecedor li{ line-height: 30px; padding: 0 10px}
     .layout04 .bgMenu{background-color:#efefef;}
     .layout04 .bordaMenu{}
 .layout04 .endFornecedor{width:250px; height:auto; padding: 10px; clear: both;}
@@ -126,32 +128,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
 .layout04 form span{display:block;}
 .layout04 form label{margin:10px 0; display:block;}
 .layout04 form input[type=submit]{margin:20px; padding:5px; border:none; text-transform:uppercase; font-size:12px; background-color:#000; color:#fff;}
+.layout04 #rodapeMet{margin:10px 0;}
 
 
 
-
-
-
+/*---DEFAULT---*/
 .tituloServProd{position:absolute; bottom:0; left:0; padding:5px; width:95px;}
 .backgroundProd{background:rgba(0,0,0,.7); color:#fff;}
-
-
-
-
-
-
-
-
-
-
-
-
 .grupoFts figure{position:relative;}
 .ampliar{width:35px; height: 25px; border-radius:17px; background-color:rgba(0,0,0,.7); position:absolute; left:-17px; top: -12px; margin-left:50%; margin-top:50%;}
 .fancybox-custom .fancybox-skin {box-shadow: 0 0 50px #222;}
-
-
-
 .texto p{margin-bottom:10px;}
 .corBordaBottom{ border-color:#000;}
 .corBordaBottom:last{border:none!important;}

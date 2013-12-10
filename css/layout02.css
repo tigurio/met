@@ -1,14 +1,10 @@
 /*-=[ COR DO MENU : alterar o heximadecimal "#000000" ]=-*/
 .corMenu{color:#673330;}
-/*-= [BACKGROUND HOVER DO MENU : alterar o heximadecimal "#000000" ]=-*/
-.menuFornecedor li:hover{background:#e89f17!important;}
 /*-= [BACKGROUND DO TiTULO : alterar o heximadecimal "#000000" ]=-*/
 .bgTitulo{background:#673330!important;}
 .fotos .bgTitulo{background:rgba(103,50,50,.7)!important;}
 /*-= [BACKGROUND DO CONTEUDO : alterar o heximadecimal "#000000" ]=-*/
 .bgConteudo{background:rgba(103,50,50,.1)!important;}
-/*-= [BACKGROUND DO TOPO : alterar o heximadecimal "#000000" ]=-*/
-.bgTopo{background-color:#673330!important;}
 /*-=[ COR DO titulo : alterar o heximadecimal "#FFFFFF" ]=-*/
 .corTitulo{color:#e89f17!important;}
 .blog h2{color:#673330!important;}
