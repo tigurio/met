@@ -1,4 +1,4 @@
-*{margin:0; padding:0; list-style:none; font-family: 'cabinregular'; text-decoration:none;}
+*{margin:0; padding:0; list-style:none; font-family: 'cabinregular'!important; text-decoration:none;}
 
 #barraMet{width:100%; height:35px; background: #4c4c4c; /* Old browsers */
 background: -moz-linear-gradient(top,  #4c4c4c 0%, #000000 51%, #111111 60%, #131313 100%); /* FF3.6+ */
@@ -111,8 +111,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
 .layout04 .menuFornecedor{width:270px; height:auto; margin: 20px 0;}
 .layout04 .menuFornecedor ul{text-align:left; padding:20px;}
 .layout04 .menuFornecedor li{ line-height: 30px; padding: 0 10px}
-    .layout04 .bgMenu{background-color:#efefef;}
-    .layout04 .bordaMenu{}
+    .layout04 .bgConteudo{background-color:#efefef;}
 .layout04 .endFornecedor{width:250px; height:auto; padding: 10px; clear: both;}
 .layout04 .endFornecedor .contatos{font-size:13px;}
 .layout04 .endFornecedor address{ font-style:normal; width:250px!important;}
@@ -149,7 +148,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
 
 
 .share{float: right;}
-address{float: left;font-size:14px; font-style:normal; width:600px;}
+address{float: left;font-size:14px; font-style:normal; width:600px; margin-top: 5px;}
 address b{ font-weight:bold; color:#000;}
 
 .floatLeft{float: left;}
