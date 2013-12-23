@@ -1,29 +1,30 @@
-*{margin: 0px; padding: 0px;}
-ul{list-style: none;}
-#barraMet{background: #000; height: 35px; width: 100%;}
-#barraMet #wrapBar{ width: 990px; margin: 0 auto;;}
-#barraMet .marcaMet{float: left; /*text-indent: -9999px;*/ margin-right: 100px;}
-#barraMet li{float: left; color: #d6c611; margin-right: 30px; line-height: 35px; font-size: 13px; text-transform: uppercase;}
+/*-=[ COR DO MENU : alterar o heximadecimal "#000000" ]=-*/
+.corMenu{color:#673330;}
+/*-= [BACKGROUND HOVER DO MENU : alterar o heximadecimal "#000000" ]=-*/
+.menuFornecedor li:hover{background:#e89f17!important;}
+/*-= [BACKGROUND DO TiTULO : alterar o heximadecimal "#000000" ]=-*/
+.bgTitulo{background:#673330!important;}
+.fotos .bgTitulo{background:rgba(103,50,50,.7)!important;}
+/*-= [BACKGROUND DO CONTEUDO : alterar o heximadecimal "#000000" ]=-*/
+.bgConteudo{background:rgba(103,50,50,.1)!important;}
+/*-= [BACKGROUND DO TOPO : alterar o heximadecimal "#000000" ]=-*/
+.bgTopo{background-color:#673330!important;}
+/*-=[ COR DO titulo : alterar o heximadecimal "#FFFFFF" ]=-*/
+.corTitulo{color:#e89f17!important;}
+.blog h2{color:#673330!important;}
+.texto h2{color:#673330!important;}
+/*-=[ COR DO TEXTO : alterar o heximadecimal "#FFFFFF" ]=-*/
+.corTexto{color:#000000!important;}
+/*-= [BACKGROUND DA NAVAGACAO SLIDE : alterar o heximadecimal "#000000" ]=-*/
+.bx-wrapper .bx-pager.bx-default-pager a{background:#673330!important;}
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active{background:#e89f17!important;}
+.bx-wrapper .tituloDest{background:rgba(103,50,50,.7)!important;}
+/*-=[ COR DA BORDA : alterar o heximadecimal "#FFFFFF" ]=-*/
+.corBorda{border-color:#e89f17!important;}
+.texto{border-color:#e89f17!important }
 
-#geral{width: 100%; height: auto;}
-.conteudo{width: 800px; height: auto; margin:0 auto;}
-
-#menu{width: 100%; height: auto; line-height: 24px;}
-#menu ul{text-align: center; margin:0 auto;}
-.titulo{background: #000; color: #fff; font-size: 15px; text-transform: uppercase; padding: 10px 20px; display: inline-block;}
-.context{width: 700px; margin:0 auto;}
-.context figure{margin: 10px;}
-.topo{width: 100%; height: auto;}
-
-.marca{ height: 140px; margin:20px 0; text-align: center;}
-#menu li{float: left; list-style: none; text-transform: uppercase; font-size: 14px; line-height: 24px;}
-.destaque{width: 700px; height: 320px; margin:0 auto; position: relative;}
-.destaque figcaption{position: absolute; bottom: 20px; right: 0;}
-.sombraDest{width: 800px; height: 68px; margin: 0 auto; background: url('../img/sombraDest.jpg') no-repeat center;}
-#rodapeMet{width: 100%; height: auto;}
-.share{float: right;}
-address{float: left;}
-
-
-.floatLeft{float: left;}
-.clear{clear: both;	}
+/*-= [BACKGROUND DO ICONE : alterar o heximadecimal "#000000" ]=-*/
+.ampliar{background-color:rgba(103,50,50,.7)!important;}
+/*-= [BACKGROUND DO BOTAO : alterar o heximadecimal "#000000" ]=-*/
+form input[type=submit]{background:#673330!important; color:#e89f17!important;}

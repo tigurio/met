@@ -1,0 +1,31 @@
+/*-=[ COR DO MENU : alterar o heximadecimal "#000000" ]=-*/
+.corMenu{color:#690069;}
+/*-= [BACKGROUND HOVER DO MENU : alterar o heximadecimal "#000000" ]=-*/
+.menuFornecedor li:hover{background:#fa00fa!important;}
+/*-= [BACKGROUND DO TiTULO : alterar o heximadecimal "#000000" ]=-*/
+.bgTitulo{background:#fa00fa!important;}
+.fotos .bgTitulo{background:rgba(105,0,105,.7)!important;}
+/*-= [BACKGROUND DO CONTEUDO : alterar o heximadecimal "#000000" ]=-*/
+.bgConteudo{background:rgba(250,0,250,.1)!important;}
+/*-= [BACKGROUND DO TOPO : alterar o heximadecimal "#000000" ]=-*/
+.bgTopo{background-color:#fa00fa!important;}
+/*-=[ COR DO titulo : alterar o heximadecimal "#FFFFFF" ]=-*/
+.corTitulo{color:#690069!important;}
+.fotos .corTitulo{color:#FFFFFF!important;}
+.blog h2{color:#690069!important;}
+.texto h2{color:#690069!important;}
+/*-=[ COR DO TEXTO : alterar o heximadecimal "#FFFFFF" ]=-*/
+.corTexto{color:#000000!important;}
+/*-= [BACKGROUND DA NAVAGACAO SLIDE : alterar o heximadecimal "#000000" ]=-*/
+.bx-wrapper .bx-pager.bx-default-pager a{background:#690069!important;}
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active{background:#fa00fa!important;}
+.bx-wrapper .tituloDest{background:rgba(105,0,105,.7)!important;}
+/*-=[ COR DA BORDA : alterar o heximadecimal "#FFFFFF" ]=-*/
+.corBorda{border-color:#690069!important;}
+.texto{border-color:#690069!important }
+
+/*-= [BACKGROUND DO ICONE : alterar o heximadecimal "#000000" ]=-*/
+.ampliar{background-color:rgba(105,0,105,.7)!important;}
+/*-= [BACKGROUND DO BOTAO : alterar o heximadecimal "#000000" ]=-*/
+form input[type=submit]{background:#690069!important; color:#FFFFFF!important;}
