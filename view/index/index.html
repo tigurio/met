@@ -4,8 +4,20 @@
     <meta charset="UTF-8">
     <title>Meu evento Top</title>
     <link rel="stylesheet" href="../../css/home.css">
+    <link rel="stylesheet" href="../../css/sprite.css">
     <!-- jQuery library (served from Google) -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:400,500,800' rel='stylesheet' type='text/css'>
+
+    <!-- bxSlider Javascript file -->
+    <script src="../../js/jquery.bxslider.min.js"></script>
+    <!-- bxSlider CSS file -->
+    <link href="../../css/jquery.bxslider.css" rel="stylesheet" />
+
+    <!-- scroll Javascript file -->
+    <script src="http://jamesflorentino.github.io/nanoScrollerJS/javascripts/jquery.nanoscroller.js" ></script>
+    <link href="http://jamesflorentino.github.io/nanoScrollerJS/css/nanoscroller.css" rel="stylesheet" />
+
 </head>
 <body>
     <div id="barraTopo">
@@ -20,21 +32,55 @@
             </ul>
         </nav>
         <div class="monteEvento">
-            monte seu evento
+            <span class="itens">monte seu evento</span>
             <div class="tiposEventos">
                 <span class="tituloTipoEvento">tipo de evento</span>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
+                <div class="nano">
+                    <ul class="content">
+                        <li>festas em geral</li>
+                        <li>casamentos</li>
+                        <li>chás</li>
+                        <li>bodas</li>
+                        <li>churrasco</li>
+                        <li>empresarial</li>
+                        <li>formaturas</li>
+                        <li>festas em geral</li>
+                        <li>casamentos</li>
+                        <li>chás</li>
+                        <li>bodas</li>
+                        <li>churrasco</li>
+                        <li>empresarial</li>
+                        <li>formaturas</li>
+                        <li>festas em geral</li>
+                        <li>casamentos</li>
+                        <li>chás</li>
+                        <li>bodas</li>
+                        <li>churrasco</li>
+                        <li>empresarial</li>
+                        <li>formaturas</li>
+                        <li>festas em geral</li>
+                        <li>casamentos</li>
+                        <li>chás</li>
+                        <li>bodas</li>
+                        <li>churrasco</li>
+                        <li>empresarial</li>
+                        <li>formaturas 1</li>
+                        <li>festas em geral</li>
+                        <li>casamentos</li>
+                        <li>chás</li>
+                        <li>bodas</li>
+                        <li>churrasco</li>
+                        <li>empresarial</li>
+                        <li>formaturas</li>
+                        <li>festas em geral</li>
+                        <li>casamentos</li>
+                        <li>chás</li>
+                        <li>bodas</li>
+                        <li>churrasco</li>
+                        <li>empresarial</li>
+                        <li>formaturas 1</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
@@ -55,7 +101,7 @@
             </div>
             <form action="">
                 <input type="text" name="" id="" placeholder="O que você procura?">
-                <input type="submit" value="">
+                <input type="submit" value="" class="sprite icoBusca">
             </form>
         </div>
         <div class="areaLogin">
@@ -63,15 +109,15 @@
                 <div class="logarFacebook"></div>
             </div>-->
             <div class="logado">
-                <figure><img src="http://www.placehold.it/40x40" alt="" /></figure>
+                <figure><span class="sprite gravatar"></span><!--<img src="http://www.placehold.it/40x40" alt="" />--></figure>
                 <span class="nomeUser">Nome Usuário</span>
                 <div class="profile">
                     <span>Minha conta</span>
                     <div class="menuUser"></div>
                 </div>
             </div>
-            <div class="carrinho">
-                <span class="qtde">2</span>
+            <div class="carrinho sprite cestaCarrinho">
+                <span class="qtde">0</span>
             </div>
 
         </div>
@@ -242,23 +288,101 @@
                 </aside>
             </aside>
             <aside class="col_1-3 floatLeft">
-                <article id="eventos">
-                    <figure><img src="http://www.placehold.it/300x225" alt="" /></figure>
-                    <div class="infoEvento">
-                        <p class="nomeEvento">Nome do Evento</p>
-                        <p class="localEvento">
-                            <b>Local: Endereço do evento</b>
-                        </p>
-                        <p class="dataEvento">
-                            <b>Data: 00 de mês de 0000</b>
-                        </p>
+                <!--[slide 1]-->
+                <aside id="eventos">
+                    <article class="listaEventos">
+                        <figure><img src="http://www.placehold.it/300x225" alt="" /></figure>
+                        <div class="infoEvento">
+                            <p class="nomeEvento">Nome do Evento</p>
+                            <p class="localEvento">
+                                <b>Local: Endereço do evento</b>
+                            </p>
+                            <p class="dataEvento">
+                                <b>Data: 00 de mês de 0000</b>
+                            </p>
+                        </div>
+                    </article>
+                    <!--[slide 2]-->
+                    <article class="listaEventos">
+                        <figure><img src="http://www.placehold.it/300x225" alt="" /></figure>
+                        <div class="infoEvento">
+                            <p class="nomeEvento">Nome do Evento</p>
+                            <p class="localEvento">
+                                <b>Local: Endereço do evento</b>
+                            </p>
+                            <p class="dataEvento">
+                                <b>Data: 00 de mês de 0000</b>
+                            </p>
+                        </div>
+                    </article>
+                    <!--[slide 3]-->
+                    <article class="listaEventos">
+                        <figure><img src="http://www.placehold.it/300x225" alt="" /></figure>
+                        <div class="infoEvento">
+                            <p class="nomeEvento">Nome do Evento</p>
+                            <p class="localEvento">
+                                <b>Local: Endereço do evento</b>
+                            </p>
+                            <p class="dataEvento">
+                                <b>Data: 00 de mês de 0000</b>
+                            </p>
+                        </div>
+                    </article>
+                </aside>
+                <div class="publicidade square col_1-3"><img src="http://www.placehold.it/300x250&text=publicidade" alt="" /></div>
+                <article id="enquete">
+                    <h2 class="titSessao clear"><span class="bullet"></span>enquete</h2>
+                    <div class="contEnquete">
+                        <p class="pergunta">Qual a pergunta que quer fazer?</p>
+                        <div class="alternativasEnq">
+                            <form>
+                                <label><input type="radio" value="" title="" />Aqui entra a resposta 1</label>
+                                <label><input type="radio" value="" title="" />Aqui entra a resposta 2</label>
+                                <label><input type="radio" value="" title="" />Aqui entra a resposta 3</label>
+                                <label><input type="radio" value="" title="" />Aqui entra a resposta 4</label>
+                                <label><input type="radio" value="" title="" />Aqui entra a resposta 5</label>
+                                <input type="submit" value="votar" title="Botão Votar" />
+                            </form>
+                        </div>
                     </div>
 
                 </article>
-                <div class="publicidade square col_1-3"><img src="http://www.placehold.it/300x250&text=publicidade" alt="" /></div>
-                <article class="enquete"></article>
-                <article class="tempoLocal"></article>
-                <article class="redeSocial"></article>
+                <article id="tempoLocal">
+                    <p>Confira o tempo no dia do seu evento:</p>
+                    <div class="infoTempo">
+                        <div class="dadosPrevisao">
+                            <span class="grau">100°</span>
+                            <span class="statusPrevisao">parcialmente nublado</span>
+                            <span class="cidade">Vitória da Conquista</span>
+                            <span class="data">dd/mm/aaaa</span>
+                        </div>
+                        <!--[
+                            LETRA "a" = ensolarado
+                            LETRA "b" = parcialmente nublado
+                            LETRA "c" = nublado
+                            LETRA "d" = com nuvens
+                            LETRA "f" = sujeito a raios e trovões
+                            LETRA "g" = chuva rápida
+                            LETRA "h" = chuvoso
+                            LETRA "i" = chuva com raios
+                            LETRA "k" = neve
+                        ]-->
+                        <div class="iconePrevisao">b</div>
+                    </div>
+                    <div class="mudarCidade">mudar cidade</div>
+                    <div class="dataPrevisao">escolher data</div>
+                </article>
+                <article class="redeSocial">
+                    <div id="fb-root"></div>
+                    <script>(function(d, s, id) {
+                      var js, fjs = d.getElementsByTagName(s)[0];
+                      if (d.getElementById(id)) return;
+                      js = d.createElement(s); js.id = id;
+                      js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1&appId=383900185050325";
+                      fjs.parentNode.insertBefore(js, fjs);
+                    }(document, 'script', 'facebook-jssdk'));</script>
+                    <div class="fb-like-box" data-href="http://www.facebook.com/quitutesdasereia" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false"></div>
+                </article>
             </aside>
         </aside>
 
@@ -351,7 +475,36 @@
     </div>
 <script type="text/javascript">
     $(document).ready(function(){
-        $('.boxShopping:even').addClass('marginR-20px')
+        $('.boxShopping:even').addClass('marginR-20px');
+
+        $('.itens').click(function(){
+            $('.tiposEventos').slideToggle('slow');
+        })
+
+        var height = $(window).height();
+        $('.tiposEventos').css('min-height',height - 80);
+        $('.nano').css('height',height - 100);
+
+        $('#eventos').bxSlider();
+
+        $(".nano").nanoScroller();
+
+
+        /*var monteEvento = $('.tiposEventos');
+        monteEvento.tinyscrollbar();
+
+        $('.itens').click(function(){
+            var heightTipoEvento = $(".viewport ul").height();
+            $('.tiposEventos .viewport').css('height',heightTipoEvento);
+
+
+            monteEvento.tinyscrollbar_update();
+            return false;
+        });*/
+
+        //$(".tiposEventos ul").tinyscrollbar();
+
+
     })
 
 </script>

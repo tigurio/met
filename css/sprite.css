@@ -1,0 +1,15 @@
+.sprite{ background-image:url("../img/sprite.png"); background-position: top left; background-position: no-repeat; }
+.cestaCarrinho{ width:50px; height:60px; background-position:0px -75px; }
+.arrowRight{ width:60px; height:45px; background-position:-160px -75px; }
+.arrowLeft{ width:60px; height:45px; background-position:-230px -75px; }
+.gravatar{ width:41px; height:41px; background-position:-109px -77px; display: block; float: left; margin-right: 5px; }
+.icoBusca{ width:40px; height:36px; background-position:0px 0px; }
+.cardDiners{ width:43px; height:29px; background-position:-10px -287px; }
+.boleto{ width:46px; height:29px; background-position:-10px -326px; }
+.cardPaypal{ width:45px; height:29px; background-position:-10px -365px; }
+.cardAmex{ width:43px; height:28px; background-position:-10px -404px; }
+.cardAura{ width:46px; height:28px; background-position:-10px -442px; }
+.cardHiper{ width:46px; height:28px; background-position:-10px -480px; }
+.cardOiPaggo{ width:45px; height:28px; background-position:-10px -518px; }
+.cardPagSeguro{ width:45px; height:28px; background-position:-10px -556px; }
+

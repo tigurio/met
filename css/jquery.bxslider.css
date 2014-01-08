@@ -32,17 +32,17 @@
 .bx-wrapper .bx-viewport {
 	-moz-box-shadow: 0 0 5px #ccc;
 	-webkit-box-shadow: 0 0 5px #ccc;
-	box-shadow: 0 0 5px #ccc;
+	/*box-shadow: 0 0 5px #ccc;
 	border: solid #fff 5px;
+    background: #fff;*/
 	left: -5px;
-	background: #fff;
 }
 
 .bx-wrapper .bx-pager,
 .bx-wrapper .bx-controls-auto {
 	position: absolute;
 	bottom: -30px;
-	width: 100%;
+	width: 55%;
 }
 .layout02 .bx-wrapper .bx-pager,
 .layout02 .bx-wrapper .bx-controls-auto {
@@ -56,7 +56,7 @@
 
 .bx-wrapper .bx-loading {
 	min-height: 50px;
-	background: url(images/bx_loader.gif) center center no-repeat #fff;
+	background: url(../img/fancybox/fancybox_loading.gif) center center no-repeat #fff;
 	height: 100%;
 	width: 100%;
 	position: absolute;
@@ -73,7 +73,8 @@
 	font-family: Arial;
 	font-weight: bold;
 	color: #666;
-	padding-top: 20px;
+	padding-top: 15px;
+    text-align: left;
 }
 
 .bx-wrapper .bx-pager .bx-pager-item,
@@ -84,7 +85,7 @@
 }
 
 .bx-wrapper .bx-pager.bx-default-pager a {
-	background: #666;
+	background: #fff;
 	text-indent: -9999px;
 	display: block;
 	width: 10px;
@@ -94,40 +95,41 @@
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
+    border:1px solid #d6be00;
 }
 
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
 .bx-wrapper .bx-pager.bx-default-pager a.active {
-	background: #000;
+	background: #d6be00;
 }
 
 /* DIRECTION CONTROLS (NEXT / PREV) */
 
 .bx-wrapper .bx-prev {
-	left: 10px;
-	background: url(images/controls.png) no-repeat 0 -32px;
+	right: 66px;
+	background: url(../img/sprite.png) no-repeat -160px -75px #d6be00;
 }
 
 .bx-wrapper .bx-next {
-	right: 10px;
-	background: url(images/controls.png) no-repeat -43px -32px;
+	right: 5px;
+	background: url(../img/sprite.png) no-repeat -230px -75px #d6be00;
 }
 
 .bx-wrapper .bx-prev:hover {
-	background-position: 0 0;
+	background-position: -160px -130px;
 }
 
 .bx-wrapper .bx-next:hover {
-	background-position: -43px 0;
+	background-position: -230px -130px;
 }
 
 .bx-wrapper .bx-controls-direction a {
 	position: absolute;
-	top: 50%;
+	bottom: -45px;
 	margin-top: -16px;
 	outline: 0;
-	width: 32px;
-	height: 32px;
+	width: 60px;
+	height: 45px;
 	text-indent: -9999px;
 	z-index: 9999;
 }
@@ -148,7 +150,7 @@
 	width: 10px;
 	height: 11px;
 	outline: 0;
-	background: url(images/controls.png) -86px -11px no-repeat;
+	background: url(../img/controls.png) -86px -11px no-repeat;
 	margin: 0 3px;
 }
 
@@ -163,7 +165,7 @@
 	width: 9px;
 	height: 11px;
 	outline: 0;
-	background: url(images/controls.png) -86px -44px no-repeat;
+	background: url(../img/controls.png) -86px -44px no-repeat;
 	margin: 0 3px;
 }
 
