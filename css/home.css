@@ -1,26 +1,16 @@
-*{margin: 0px; padding: 0px; list-style: none; font-family: 'Alegreya Sans', sans-serif;}
+*{margin: 0px; padding: 0px; list-style: none; font-family: 'Alegreya Sans', sans-serif; text-decoration:none;}
 #barraTopo{width: 1140px; height: 40px; background-color: black; margin: 0 auto;}
 nav.menu ul{width: 950px; color: white;}
+nav.menu li a{ color: white; text-decoration:none;}
+nav.menu li:hover a{ color: #333;}
 nav.menu li{float: left; font-size: 12px; text-transform: uppercase; padding: 0 10px; line-height: 40px;}
 nav.menu li:hover{background-color: #d6be00; color: #333;}
 
 .monteEvento{width: 150px; height: 40px; background-color: #d6be00; float: right; font-size: 12px; color: #fff; text-align: center; line-height: 40px; text-transform: uppercase; margin-right: 10px; position: relative; cursor: pointer;}
-.tiposEventos{display: none; background-color:#666; padding:20px 0; width: 150px; text-align: right; z-index: 9999; position: absolute; top: 40px; right: 0px; font-size: 12px;}
-.tiposEventos ul{ width: 145px;text-transform: uppercase; color: #fff; margin: 1px 0; padding: 0; line-height: 25px!important; font-family: 'Myriad';}
+
+.tiposEventos{overflow-x:auto; display: none; background-color:#666; padding:20px 0; width: 150px; text-align: right; z-index: 9999; position: absolute; top: 40px; right: 0px; font-size: 12px;}
+.tiposEventos ul{text-transform: uppercase; color: #fff; margin: 10px; padding: 0; line-height: 25px!important; font-family: 'Myriad';}
 .tituloTipoEvento{ border-bottom:1px solid #333; color: #333; width: 130px; margin: 0px 10px 10px 10px; display: block; line-height: 14px!important;}
-.nano{width: 145px!important;}
-
-
-.tiposEventos .viewport { width: 130px; overflow: hidden; position: relative; }
-.tiposEventos .overview { list-style: none; position: absolute; left: 0; top: 0; padding: 0 10px; margin: 0; width: 120px;}
-.tiposEventos .scrollbar{ position: relative; background-position: 0 0; float: right; width: 5px; margin-right: 5px;}
-.tiposEventos .track { background: #999 ; height: 50%; width:5px; border-radius: 2px; position: relative; padding: 0 1px; }
-.tiposEventos .thumb { background: #fff ; height: 20px!important; width:5px; border-radius: 2px; cursor: pointer; overflow: hidden; position: absolute; top: 0; }
-.tiposEventos .thumb .end { background: #fff; overflow: hidden; height: 5px; width: 5px; }
-.tiposEventos .disable { display: none; }
-.noSelect { user-select: none; -o-user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; }
-
-
 
 
 #topoSite{width: 1140px; height: 120px; position: relative; background-color: #b9a933; margin: 0 auto;}
@@ -55,11 +45,21 @@ nav.menu li:hover{background-color: #d6be00; color: #333;}
 #conteudoSite{width: 1120px; height: auto; clear: both; margin: 0 auto; padding: 0 10px;}
 #conteudoPrinc{float: left;}
 .notDest{ width: 100%; height: auto; overflow: hidden; margin-bottom: 20px;}
-.notDest p.titNot-destaque{font-size: 20px; color: #333; line-height: 26px; margin:10px 0;}
-.notDest p.resumoNot-destaque{font-size: 16px; color: #666;}
+
+.singleNot p.titNot-destaque{font-size: 20px; color: #333; line-height: 26px; margin:10px 0;}
+.singleNot p.resumoNot-destaque{font-size: 16px; color: #666;}
+
 .boxNoticia{min-height:65px; border-bottom: 1px solid #bbb; padding-bottom: 10px; margin-bottom: 5px;}
 .boxNoticia figure{float: left; margin-right: 10px;}
 .boxNoticia .titNot-outras{font-size: 16px; color: #666; padding-top: 5px;}
+.boxNoticia .titNot-outras a{color: #666;}
+
+.notFull{ position: relative;}
+.chamadaNot{position: absolute; bottom: 10px; left: 0px; width: 600px; padding: 0 10px;}
+.chamadaNot p{ margin-bottom: 5px;}
+.chamadaNot span.titNot-destaque{font-size: 24px!important; color: #333; line-height: 26px;background: #d6be00; padding: 10px; display: inline-block;}
+.chamadaNot span.resumoNot-destaque{font-size: 16px; color: #fff!important;background: #d6be00; padding: 10px; display: inline-block;}
+
 
 .fornecedores{margin: 20px 0; height: auto; overflow: hidden;}
 .fornecedores ul{width: 300px; margin: 0;}
@@ -94,6 +94,8 @@ nav.menu li:hover{background-color: #d6be00; color: #333;}
 
 .publicidade{ clear: both; width: 100%; text-align: center; margin: 20px 0;}
 
+
+
 #enquete{ width: 100%; height: auto;}
 .contEnquete{width: 95%; padding: 2.5%;}
 #enquete .pergunta{font-size: 16px; font-weight: 800; color: #777; }
@@ -102,6 +104,10 @@ nav.menu li:hover{background-color: #d6be00; color: #333;}
 .alternativasEnq input[type=radio]{ margin-right: 5px;}
 .alternativasEnq input[type=submit]{ float: right; clear: both; text-transform: uppercase; font-size: 12px; margin-bottom: 10px; padding: 5px 10px;}
 
+.opcaoEnq2 label{width:45%; height:60px; vertical-align:middle; float:left;}
+.opcaoEnq2 label input[type=radio]{ display: block; float: right; margin-right: 25px;  margin-top: 25px;}
+.opcaoEnq2 input[type=submit]{ float: none!important; clear: both; text-transform: uppercase; font-size: 12px; margin-bottom: 10px; padding: 5px 10px;}
+
 #tempoLocal{ width: 100%; margin-top: 20px;}
 .infoTempo{border-bottom: 4px solid #d6be00; width: 98%; padding: 1%; clear: both; overflow: hidden; background-color: #f2f2f2; height: 140px;}
 .dadosPrevisao{ width: 45%; margin:0 2.5%; color: #333; font-weight: 400; float: left;}
@@ -109,7 +115,7 @@ span.grau{font-size: 68px; display: block; line-height: 70px;}
 span.cidade{font-size: 16px; display: block;}
 span.data{font-size: 14px; display: block;}
 span.statusPrevisao{font-size: 14px; display: block; margin-bottom: 10px; font-weight: 400;}
-.iconePrevisao{ width: 45%; margin:0 2.5%; font-family: 'weatherregular'; float: right; text-align: center; font-size: 168px;}
+.iconePrevisao{ width: 45%; margin:0 2.5%; font-family: 'weatherregular'!important; float: right; text-align: center; font-size: 168px;}
 #tempoLocal .mudarCidade{ text-align: center; font-size: 12px; background-color: #b19d00; float: left; width: 47%; margin-right:3%;}
 .dataPrevisao{ text-align: center; font-size: 12px; background-color: #b19d00; float: left; width: 47%; margin-left:3%;}
 
@@ -146,6 +152,7 @@ span.statusPrevisao{font-size: 14px; display: block; margin-bottom: 10px; font-w
 .clear{clear: both;}
 .marginR-20px{margin-right: 20px;}
 .marginL-20px{margin-left: 20px;}
+.marginT-20px{margin-top: 20px;}
 
 
 /*==internas==*/
@@ -167,6 +174,32 @@ span.statusPrevisao{font-size: 14px; display: block; margin-bottom: 10px; font-w
 #listaCateorias ul .disable { display: none; }
 .noSelect { user-select: none; -o-user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; }
 
+#materia, .comentario{ width:100%; height:auto; clear:both; overflow:hidden; margin-top:20px;}
+#materia p.data{ font-size: 10px; color:#777;}
+#materia p.tituloMateria{font-size: 24px; color:#918101; line-height:32px;}
+#materia p.credito{font-size: 12px; color:#777; border-bottom:1px solid #777; margin-bottom:10px; padding-bottom:5px;}
+#materia .noticia p{margin-bottom:5px;}
+
+.comentario{border-top:1px solid #918101;}
+.comentario p{font-size: 16px; color:#918101; line-height:28px;}
+.compartilhamento{margin-top:20px;}
+
+.outrasNot{border-top:1px solid #777; margin-top:20px;}
+.outrasNot h3{color:#0394fa; text-transform:uppercase; font-size:18px; line-height:50px;}
+.outrasNot .boxNoticia{ opacity:0.7;}
+.outrasNot .boxNoticia:hover{ opacity:1;}
+
+.galeria{width:100%; height:auto;border-top:1px solid #777;}
+.galeria h3{color:#0394fa; text-transform:uppercase; font-size:18px; line-height:50px;}
+.galeria .boxFotos{background:#f2f2f2; padding:5px; clear:both; overflow:hidden;}
+.galeria .boxFotos figure{float:left;}
+.smallFto{margin-left:5px;}
+.galeria p.titGaleria{background:#0394fa; color:#fff; padding:5px;}
+
+
+.institucional{width:100%; height:auto; margin-top:20px;}
+.institucional h3{color:#0394fa; text-transform:uppercase; font-size:18px; line-height:50px;}
+.institucional p{margin-bottom:5px;}
 
 @font-face {
     font-family: 'weatherregular';
